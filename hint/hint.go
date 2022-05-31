@@ -1,14 +1,13 @@
-package hint
+package main
 
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/tidwall/buntdb"
 	"log"
 	"net/http"
 	"strconv"
 	"time"
-
-	"github.com/tidwall/buntdb"
 )
 
 var db *buntdb.DB
